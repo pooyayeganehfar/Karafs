@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "دستیار مرورگر فارسی",
+  "version": "1.0",
+  "description": "صفحه شخصی‌سازی شده با تقویم، آب و هوا و یادداشت",
+  "permissions": [
+    "storage",
+    "geolocation",
+    "bookmarks"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
